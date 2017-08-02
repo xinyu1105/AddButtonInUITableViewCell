@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2976970C1F31D2BC005F0FB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976970B1F31D2BC005F0FB9 /* main.m */; };
+		2976970F1F31D2BC005F0FB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976970E1F31D2BC005F0FB9 /* AppDelegate.m */; };
+		297697151F31D2BC005F0FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297697131F31D2BC005F0FB9 /* Main.storyboard */; };
+		297697171F31D2BC005F0FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 297697161F31D2BC005F0FB9 /* Assets.xcassets */; };
+		2976971A1F31D2BC005F0FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297697181F31D2BC005F0FB9 /* LaunchScreen.storyboard */; };
+		297697251F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 297697241F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockTests.m */; };
+		297697301F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976972F1F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockUITests.m */; };
+		297697411F31D31C005F0FB9 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976973E1F31D31C005F0FB9 /* TableViewCell.m */; };
+		297697421F31D31C005F0FB9 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 297697401F31D31C005F0FB9 /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		297697211F31D2BC005F0FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 297696FF1F31D2BC005F0FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 297697061F31D2BC005F0FB9;
+			remoteInfo = AddButtonInUITableViewCell_Block;
+		};
+		2976972C1F31D2BC005F0FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 297696FF1F31D2BC005F0FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 297697061F31D2BC005F0FB9;
+			remoteInfo = AddButtonInUITableViewCell_Block;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		297697071F31D2BC005F0FB9 /* AddButtonInUITableViewCell_Block.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddButtonInUITableViewCell_Block.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2976970B1F31D2BC005F0FB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2976970D1F31D2BC005F0FB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2976970E1F31D2BC005F0FB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		297697141F31D2BC005F0FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		297697161F31D2BC005F0FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		297697191F31D2BC005F0FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2976971B1F31D2BC005F0FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		297697201F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddButtonInUITableViewCell_BlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		297697241F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddButtonInUITableViewCell_BlockTests.m; sourceTree = "<group>"; };
+		297697261F31D2BC005F0FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2976972B1F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddButtonInUITableViewCell_BlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2976972F1F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddButtonInUITableViewCell_BlockUITests.m; sourceTree = "<group>"; };
+		297697311F31D2BC005F0FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2976973D1F31D31C005F0FB9 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		2976973E1F31D31C005F0FB9 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		2976973F1F31D31C005F0FB9 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		297697401F31D31C005F0FB9 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		297697041F31D2BC005F0FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2976971D1F31D2BC005F0FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297697281F31D2BC005F0FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		297696FE1F31D2BC005F0FB9 = {
+			isa = PBXGroup;
+			children = (
+				297697091F31D2BC005F0FB9 /* AddButtonInUITableViewCell_Block */,
+				297697231F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockTests */,
+				2976972E1F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockUITests */,
+				297697081F31D2BC005F0FB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		297697081F31D2BC005F0FB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				297697071F31D2BC005F0FB9 /* AddButtonInUITableViewCell_Block.app */,
+				297697201F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockTests.xctest */,
+				2976972B1F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		297697091F31D2BC005F0FB9 /* AddButtonInUITableViewCell_Block */ = {
+			isa = PBXGroup;
+			children = (
+				2976970D1F31D2BC005F0FB9 /* AppDelegate.h */,
+				2976970E1F31D2BC005F0FB9 /* AppDelegate.m */,
+				2976973D1F31D31C005F0FB9 /* TableViewCell.h */,
+				2976973E1F31D31C005F0FB9 /* TableViewCell.m */,
+				2976973F1F31D31C005F0FB9 /* TableViewController.h */,
+				297697401F31D31C005F0FB9 /* TableViewController.m */,
+				297697131F31D2BC005F0FB9 /* Main.storyboard */,
+				297697161F31D2BC005F0FB9 /* Assets.xcassets */,
+				297697181F31D2BC005F0FB9 /* LaunchScreen.storyboard */,
+				2976971B1F31D2BC005F0FB9 /* Info.plist */,
+				2976970A1F31D2BC005F0FB9 /* Supporting Files */,
+			);
+			path = AddButtonInUITableViewCell_Block;
+			sourceTree = "<group>";
+		};
+		2976970A1F31D2BC005F0FB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2976970B1F31D2BC005F0FB9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		297697231F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				297697241F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockTests.m */,
+				297697261F31D2BC005F0FB9 /* Info.plist */,
+			);
+			path = AddButtonInUITableViewCell_BlockTests;
+			sourceTree = "<group>";
+		};
+		2976972E1F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2976972F1F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockUITests.m */,
+				297697311F31D2BC005F0FB9 /* Info.plist */,
+			);
+			path = AddButtonInUITableViewCell_BlockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		297697061F31D2BC005F0FB9 /* AddButtonInUITableViewCell_Block */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297697341F31D2BC005F0FB9 /* Build configuration list for PBXNativeTarget "AddButtonInUITableViewCell_Block" */;
+			buildPhases = (
+				297697031F31D2BC005F0FB9 /* Sources */,
+				297697041F31D2BC005F0FB9 /* Frameworks */,
+				297697051F31D2BC005F0FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddButtonInUITableViewCell_Block;
+			productName = AddButtonInUITableViewCell_Block;
+			productReference = 297697071F31D2BC005F0FB9 /* AddButtonInUITableViewCell_Block.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2976971F1F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297697371F31D2BC005F0FB9 /* Build configuration list for PBXNativeTarget "AddButtonInUITableViewCell_BlockTests" */;
+			buildPhases = (
+				2976971C1F31D2BC005F0FB9 /* Sources */,
+				2976971D1F31D2BC005F0FB9 /* Frameworks */,
+				2976971E1F31D2BC005F0FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				297697221F31D2BC005F0FB9 /* PBXTargetDependency */,
+			);
+			name = AddButtonInUITableViewCell_BlockTests;
+			productName = AddButtonInUITableViewCell_BlockTests;
+			productReference = 297697201F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2976972A1F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2976973A1F31D2BC005F0FB9 /* Build configuration list for PBXNativeTarget "AddButtonInUITableViewCell_BlockUITests" */;
+			buildPhases = (
+				297697271F31D2BC005F0FB9 /* Sources */,
+				297697281F31D2BC005F0FB9 /* Frameworks */,
+				297697291F31D2BC005F0FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2976972D1F31D2BC005F0FB9 /* PBXTargetDependency */,
+			);
+			name = AddButtonInUITableViewCell_BlockUITests;
+			productName = AddButtonInUITableViewCell_BlockUITests;
+			productReference = 2976972B1F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		297696FF1F31D2BC005F0FB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = pengjiaxin;
+				TargetAttributes = {
+					297697061F31D2BC005F0FB9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2LAAJN2NAF;
+						ProvisioningStyle = Automatic;
+					};
+					2976971F1F31D2BC005F0FB9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2LAAJN2NAF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 297697061F31D2BC005F0FB9;
+					};
+					2976972A1F31D2BC005F0FB9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2LAAJN2NAF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 297697061F31D2BC005F0FB9;
+					};
+				};
+			};
+			buildConfigurationList = 297697021F31D2BC005F0FB9 /* Build configuration list for PBXProject "AddButtonInUITableViewCell_Block" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 297696FE1F31D2BC005F0FB9;
+			productRefGroup = 297697081F31D2BC005F0FB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				297697061F31D2BC005F0FB9 /* AddButtonInUITableViewCell_Block */,
+				2976971F1F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockTests */,
+				2976972A1F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		297697051F31D2BC005F0FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2976971A1F31D2BC005F0FB9 /* LaunchScreen.storyboard in Resources */,
+				297697171F31D2BC005F0FB9 /* Assets.xcassets in Resources */,
+				297697151F31D2BC005F0FB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2976971E1F31D2BC005F0FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297697291F31D2BC005F0FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		297697031F31D2BC005F0FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297697411F31D31C005F0FB9 /* TableViewCell.m in Sources */,
+				2976970F1F31D2BC005F0FB9 /* AppDelegate.m in Sources */,
+				297697421F31D31C005F0FB9 /* TableViewController.m in Sources */,
+				2976970C1F31D2BC005F0FB9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2976971C1F31D2BC005F0FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297697251F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297697271F31D2BC005F0FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297697301F31D2BC005F0FB9 /* AddButtonInUITableViewCell_BlockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		297697221F31D2BC005F0FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 297697061F31D2BC005F0FB9 /* AddButtonInUITableViewCell_Block */;
+			targetProxy = 297697211F31D2BC005F0FB9 /* PBXContainerItemProxy */;
+		};
+		2976972D1F31D2BC005F0FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 297697061F31D2BC005F0FB9 /* AddButtonInUITableViewCell_Block */;
+			targetProxy = 2976972C1F31D2BC005F0FB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		297697131F31D2BC005F0FB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				297697141F31D2BC005F0FB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		297697181F31D2BC005F0FB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				297697191F31D2BC005F0FB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		297697321F31D2BC005F0FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		297697331F31D2BC005F0FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		297697351F31D2BC005F0FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2LAAJN2NAF;
+				INFOPLIST_FILE = AddButtonInUITableViewCell_Block/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiancity.AddButtonInUITableViewCell-Block";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		297697361F31D2BC005F0FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2LAAJN2NAF;
+				INFOPLIST_FILE = AddButtonInUITableViewCell_Block/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiancity.AddButtonInUITableViewCell-Block";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		297697381F31D2BC005F0FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2LAAJN2NAF;
+				INFOPLIST_FILE = AddButtonInUITableViewCell_BlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiancity.AddButtonInUITableViewCell-BlockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddButtonInUITableViewCell_Block.app/AddButtonInUITableViewCell_Block";
+			};
+			name = Debug;
+		};
+		297697391F31D2BC005F0FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2LAAJN2NAF;
+				INFOPLIST_FILE = AddButtonInUITableViewCell_BlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiancity.AddButtonInUITableViewCell-BlockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddButtonInUITableViewCell_Block.app/AddButtonInUITableViewCell_Block";
+			};
+			name = Release;
+		};
+		2976973B1F31D2BC005F0FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2LAAJN2NAF;
+				INFOPLIST_FILE = AddButtonInUITableViewCell_BlockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiancity.AddButtonInUITableViewCell-BlockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddButtonInUITableViewCell_Block;
+			};
+			name = Debug;
+		};
+		2976973C1F31D2BC005F0FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2LAAJN2NAF;
+				INFOPLIST_FILE = AddButtonInUITableViewCell_BlockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiancity.AddButtonInUITableViewCell-BlockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddButtonInUITableViewCell_Block;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		297697021F31D2BC005F0FB9 /* Build configuration list for PBXProject "AddButtonInUITableViewCell_Block" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297697321F31D2BC005F0FB9 /* Debug */,
+				297697331F31D2BC005F0FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		297697341F31D2BC005F0FB9 /* Build configuration list for PBXNativeTarget "AddButtonInUITableViewCell_Block" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297697351F31D2BC005F0FB9 /* Debug */,
+				297697361F31D2BC005F0FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		297697371F31D2BC005F0FB9 /* Build configuration list for PBXNativeTarget "AddButtonInUITableViewCell_BlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297697381F31D2BC005F0FB9 /* Debug */,
+				297697391F31D2BC005F0FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2976973A1F31D2BC005F0FB9 /* Build configuration list for PBXNativeTarget "AddButtonInUITableViewCell_BlockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2976973B1F31D2BC005F0FB9 /* Debug */,
+				2976973C1F31D2BC005F0FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 297696FF1F31D2BC005F0FB9 /* Project object */;
+}
