@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2958AA071F32B8DE003681F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2958AA061F32B8DE003681F1 /* main.m */; };
+		2958AA0A1F32B8DE003681F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2958AA091F32B8DE003681F1 /* AppDelegate.m */; };
+		2958AA0D1F32B8DE003681F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2958AA0C1F32B8DE003681F1 /* ViewController.m */; };
+		2958AA101F32B8DE003681F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2958AA0E1F32B8DE003681F1 /* Main.storyboard */; };
+		2958AA121F32B8DE003681F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2958AA111F32B8DE003681F1 /* Assets.xcassets */; };
+		2958AA151F32B8DE003681F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2958AA131F32B8DE003681F1 /* LaunchScreen.storyboard */; };
+		2958AA201F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2958AA1F1F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateTests.m */; };
+		2958AA2B1F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2958AA2A1F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2958AA1C1F32B8DE003681F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2958A9FA1F32B8DE003681F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2958AA011F32B8DE003681F1;
+			remoteInfo = AddButtonInUITableViewCell_Delegate;
+		};
+		2958AA271F32B8DE003681F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2958A9FA1F32B8DE003681F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2958AA011F32B8DE003681F1;
+			remoteInfo = AddButtonInUITableViewCell_Delegate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2958AA021F32B8DE003681F1 /* AddButtonInUITableViewCell_Delegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddButtonInUITableViewCell_Delegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2958AA061F32B8DE003681F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2958AA081F32B8DE003681F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2958AA091F32B8DE003681F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2958AA0B1F32B8DE003681F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2958AA0C1F32B8DE003681F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2958AA0F1F32B8DE003681F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2958AA111F32B8DE003681F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2958AA141F32B8DE003681F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2958AA161F32B8DE003681F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2958AA1B1F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddButtonInUITableViewCell_DelegateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2958AA1F1F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddButtonInUITableViewCell_DelegateTests.m; sourceTree = "<group>"; };
+		2958AA211F32B8DE003681F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2958AA261F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddButtonInUITableViewCell_DelegateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2958AA2A1F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddButtonInUITableViewCell_DelegateUITests.m; sourceTree = "<group>"; };
+		2958AA2C1F32B8DE003681F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2958A9FF1F32B8DE003681F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2958AA181F32B8DE003681F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2958AA231F32B8DE003681F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2958A9F91F32B8DE003681F1 = {
+			isa = PBXGroup;
+			children = (
+				2958AA041F32B8DE003681F1 /* AddButtonInUITableViewCell_Delegate */,
+				2958AA1E1F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateTests */,
+				2958AA291F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateUITests */,
+				2958AA031F32B8DE003681F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2958AA031F32B8DE003681F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2958AA021F32B8DE003681F1 /* AddButtonInUITableViewCell_Delegate.app */,
+				2958AA1B1F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateTests.xctest */,
+				2958AA261F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2958AA041F32B8DE003681F1 /* AddButtonInUITableViewCell_Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2958AA081F32B8DE003681F1 /* AppDelegate.h */,
+				2958AA091F32B8DE003681F1 /* AppDelegate.m */,
+				2958AA0B1F32B8DE003681F1 /* ViewController.h */,
+				2958AA0C1F32B8DE003681F1 /* ViewController.m */,
+				2958AA0E1F32B8DE003681F1 /* Main.storyboard */,
+				2958AA111F32B8DE003681F1 /* Assets.xcassets */,
+				2958AA131F32B8DE003681F1 /* LaunchScreen.storyboard */,
+				2958AA161F32B8DE003681F1 /* Info.plist */,
+				2958AA051F32B8DE003681F1 /* Supporting Files */,
+			);
+			path = AddButtonInUITableViewCell_Delegate;
+			sourceTree = "<group>";
+		};
+		2958AA051F32B8DE003681F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2958AA061F32B8DE003681F1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2958AA1E1F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateTests */ = {
+			isa = PBXGroup;
+			children = (
+				2958AA1F1F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateTests.m */,
+				2958AA211F32B8DE003681F1 /* Info.plist */,
+			);
+			path = AddButtonInUITableViewCell_DelegateTests;
+			sourceTree = "<group>";
+		};
+		2958AA291F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2958AA2A1F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateUITests.m */,
+				2958AA2C1F32B8DE003681F1 /* Info.plist */,
+			);
+			path = AddButtonInUITableViewCell_DelegateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2958AA011F32B8DE003681F1 /* AddButtonInUITableViewCell_Delegate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2958AA2F1F32B8DE003681F1 /* Build configuration list for PBXNativeTarget "AddButtonInUITableViewCell_Delegate" */;
+			buildPhases = (
+				2958A9FE1F32B8DE003681F1 /* Sources */,
+				2958A9FF1F32B8DE003681F1 /* Frameworks */,
+				2958AA001F32B8DE003681F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddButtonInUITableViewCell_Delegate;
+			productName = AddButtonInUITableViewCell_Delegate;
+			productReference = 2958AA021F32B8DE003681F1 /* AddButtonInUITableViewCell_Delegate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2958AA1A1F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2958AA321F32B8DE003681F1 /* Build configuration list for PBXNativeTarget "AddButtonInUITableViewCell_DelegateTests" */;
+			buildPhases = (
+				2958AA171F32B8DE003681F1 /* Sources */,
+				2958AA181F32B8DE003681F1 /* Frameworks */,
+				2958AA191F32B8DE003681F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2958AA1D1F32B8DE003681F1 /* PBXTargetDependency */,
+			);
+			name = AddButtonInUITableViewCell_DelegateTests;
+			productName = AddButtonInUITableViewCell_DelegateTests;
+			productReference = 2958AA1B1F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2958AA251F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2958AA351F32B8DE003681F1 /* Build configuration list for PBXNativeTarget "AddButtonInUITableViewCell_DelegateUITests" */;
+			buildPhases = (
+				2958AA221F32B8DE003681F1 /* Sources */,
+				2958AA231F32B8DE003681F1 /* Frameworks */,
+				2958AA241F32B8DE003681F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2958AA281F32B8DE003681F1 /* PBXTargetDependency */,
+			);
+			name = AddButtonInUITableViewCell_DelegateUITests;
+			productName = AddButtonInUITableViewCell_DelegateUITests;
+			productReference = 2958AA261F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2958A9FA1F32B8DE003681F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = pengjiaxin;
+				TargetAttributes = {
+					2958AA011F32B8DE003681F1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2LAAJN2NAF;
+						ProvisioningStyle = Automatic;
+					};
+					2958AA1A1F32B8DE003681F1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2LAAJN2NAF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2958AA011F32B8DE003681F1;
+					};
+					2958AA251F32B8DE003681F1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2LAAJN2NAF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2958AA011F32B8DE003681F1;
+					};
+				};
+			};
+			buildConfigurationList = 2958A9FD1F32B8DE003681F1 /* Build configuration list for PBXProject "AddButtonInUITableViewCell_Delegate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2958A9F91F32B8DE003681F1;
+			productRefGroup = 2958AA031F32B8DE003681F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2958AA011F32B8DE003681F1 /* AddButtonInUITableViewCell_Delegate */,
+				2958AA1A1F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateTests */,
+				2958AA251F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2958AA001F32B8DE003681F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2958AA151F32B8DE003681F1 /* LaunchScreen.storyboard in Resources */,
+				2958AA121F32B8DE003681F1 /* Assets.xcassets in Resources */,
+				2958AA101F32B8DE003681F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2958AA191F32B8DE003681F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2958AA241F32B8DE003681F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2958A9FE1F32B8DE003681F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2958AA0D1F32B8DE003681F1 /* ViewController.m in Sources */,
+				2958AA0A1F32B8DE003681F1 /* AppDelegate.m in Sources */,
+				2958AA071F32B8DE003681F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2958AA171F32B8DE003681F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2958AA201F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2958AA221F32B8DE003681F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2958AA2B1F32B8DE003681F1 /* AddButtonInUITableViewCell_DelegateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2958AA1D1F32B8DE003681F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2958AA011F32B8DE003681F1 /* AddButtonInUITableViewCell_Delegate */;
+			targetProxy = 2958AA1C1F32B8DE003681F1 /* PBXContainerItemProxy */;
+		};
+		2958AA281F32B8DE003681F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2958AA011F32B8DE003681F1 /* AddButtonInUITableViewCell_Delegate */;
+			targetProxy = 2958AA271F32B8DE003681F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2958AA0E1F32B8DE003681F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2958AA0F1F32B8DE003681F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2958AA131F32B8DE003681F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2958AA141F32B8DE003681F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2958AA2D1F32B8DE003681F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2958AA2E1F32B8DE003681F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2958AA301F32B8DE003681F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2LAAJN2NAF;
+				INFOPLIST_FILE = AddButtonInUITableViewCell_Delegate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiancity.AddButtonInUITableViewCell-Delegate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2958AA311F32B8DE003681F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2LAAJN2NAF;
+				INFOPLIST_FILE = AddButtonInUITableViewCell_Delegate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiancity.AddButtonInUITableViewCell-Delegate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2958AA331F32B8DE003681F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2LAAJN2NAF;
+				INFOPLIST_FILE = AddButtonInUITableViewCell_DelegateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiancity.AddButtonInUITableViewCell-DelegateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddButtonInUITableViewCell_Delegate.app/AddButtonInUITableViewCell_Delegate";
+			};
+			name = Debug;
+		};
+		2958AA341F32B8DE003681F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2LAAJN2NAF;
+				INFOPLIST_FILE = AddButtonInUITableViewCell_DelegateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiancity.AddButtonInUITableViewCell-DelegateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddButtonInUITableViewCell_Delegate.app/AddButtonInUITableViewCell_Delegate";
+			};
+			name = Release;
+		};
+		2958AA361F32B8DE003681F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2LAAJN2NAF;
+				INFOPLIST_FILE = AddButtonInUITableViewCell_DelegateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiancity.AddButtonInUITableViewCell-DelegateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddButtonInUITableViewCell_Delegate;
+			};
+			name = Debug;
+		};
+		2958AA371F32B8DE003681F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2LAAJN2NAF;
+				INFOPLIST_FILE = AddButtonInUITableViewCell_DelegateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiancity.AddButtonInUITableViewCell-DelegateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddButtonInUITableViewCell_Delegate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2958A9FD1F32B8DE003681F1 /* Build configuration list for PBXProject "AddButtonInUITableViewCell_Delegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2958AA2D1F32B8DE003681F1 /* Debug */,
+				2958AA2E1F32B8DE003681F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2958AA2F1F32B8DE003681F1 /* Build configuration list for PBXNativeTarget "AddButtonInUITableViewCell_Delegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2958AA301F32B8DE003681F1 /* Debug */,
+				2958AA311F32B8DE003681F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2958AA321F32B8DE003681F1 /* Build configuration list for PBXNativeTarget "AddButtonInUITableViewCell_DelegateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2958AA331F32B8DE003681F1 /* Debug */,
+				2958AA341F32B8DE003681F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2958AA351F32B8DE003681F1 /* Build configuration list for PBXNativeTarget "AddButtonInUITableViewCell_DelegateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2958AA361F32B8DE003681F1 /* Debug */,
+				2958AA371F32B8DE003681F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2958A9FA1F32B8DE003681F1 /* Project object */;
+}
